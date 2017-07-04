@@ -11,7 +11,7 @@ mpiexec = "/home/umar/mpich-install/bin/mpiexec" + " -n "
 testlistPath = "/home/umar/Downloads/mpich-3.2/test/mpi/coll/"
 testFile = open('testlist')
 
-testlist = testFile.read().strip().split('\n') #this will later be read from a file
+testlist = testFile.read().strip().split('\n') 
 
 for testProg in testlist:
 	for i in range (2,5):
