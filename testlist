@@ -1,6 +1,6 @@
 allred 
 allred 
-allred arg=100
+allred
 allredmany 
 allred2 
 allred3 
@@ -11,7 +11,7 @@ allred6
 allred6 
 reduce 
 reduce 
-reduce_local mpiversion=2.2
+reduce_local
 op_commutative 
 red3 
 red4 

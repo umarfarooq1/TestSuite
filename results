@@ -1,0 +1,694 @@
+allred -n 2...ok
+allred -n 3...ok
+allred -n 4...ok
+allred -n 2...ok
+allred -n 3...ok
+allred -n 4...ok
+allred-n 2...ok
+allred-n 3...ok
+allred-n 4...ok
+allredmany -n 2...ok
+allredmany -n 3...ok
+allredmany -n 4...ok
+allred2 -n 2...ok
+allred2 -n 3...ok
+allred2 -n 4...ok
+allred3 -n 2...ok
+allred3 -n 3...ok
+allred3 -n 4...ok
+allred4 -n 2...ok
+allred4 -n 3...ok
+allred4 -n 4...ok
+allred5 -n 2...ok
+allred5 -n 3...ok
+allred5 -n 4...ok
+allred5 -n 2...ok
+allred5 -n 3...ok
+allred5 -n 4...ok
+allred6 -n 2...ok
+allred6 -n 3...ok
+allred6 -n 4...ok
+allred6 -n 2...ok
+allred6 -n 3...ok
+allred6 -n 4...ok
+reduce -n 2...ok
+reduce -n 3...ok
+reduce -n 4...ok
+reduce -n 2...ok
+reduce -n 3...ok
+reduce -n 4...ok
+reduce_local-n 2...ok
+reduce_local-n 3...ok
+reduce_local-n 4...ok
+op_commutative -n 2...ok
+op_commutative -n 3...ok
+op_commutative -n 4...ok
+red3 -n 2...ok
+red3 -n 3...ok
+red3 -n 4...ok
+red4 -n 2...ok
+red4 -n 3...ok
+red4 -n 4...ok
+alltoall1 -n 2...ok
+alltoall1 -n 3...ok
+alltoall1 -n 4...ok
+alltoallv -n 2...ok
+alltoallv -n 3...ok
+alltoallv -n 4...ok
+alltoallv0 -n 2...ok
+alltoallv0 -n 3...ok
+alltoallv0 -n 4...ok
+alltoallw1 -n 2...ok
+alltoallw1 -n 3...ok
+alltoallw1 -n 4...ok
+alltoallw2 -n 2...ok
+alltoallw2 -n 3...ok
+alltoallw2 -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+allgather2 -n 2...ok
+allgather2 -n 3...ok
+allgather2 -n 4...ok
+allgather3 -n 2...ok
+allgather3 -n 3...ok
+allgather3 -n 4...ok
+allgatherv2 -n 2...ok
+allgatherv2 -n 3...ok
+allgatherv2 -n 4...ok
+allgatherv3 -n 2...ok
+allgatherv3 -n 3...ok
+allgatherv3 -n 4...ok
+allgatherv4 -n 2...
+out:
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 26697 RUNNING AT umar-Inspiron-3521
+=   EXIT CODE: 136
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Floating point exception (signal 8)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+
+allgatherv4 -n 3...ok
+allgatherv4 -n 4...ok
+allgather_struct -n 2...ok
+allgather_struct -n 3...ok
+allgather_struct -n 4...ok
+bcasttest -n 2...ok
+bcasttest -n 3...ok
+bcasttest -n 4...ok
+bcasttest -n 2...ok
+bcasttest -n 3...ok
+bcasttest -n 4...ok
+bcasttest -n 2...ok
+bcasttest -n 3...ok
+bcasttest -n 4...ok
+bcast_full -n 2...timed out
+allred -n 2...ok
+allred -n 3...ok
+allred -n 4...ok
+allred -n 2...ok
+allred -n 3...ok
+allred -n 4...ok
+allred-n 2...ok
+allred-n 3...ok
+allred-n 4...ok
+allredmany -n 2...ok
+allredmany -n 3...ok
+allredmany -n 4...ok
+allred2 -n 2...ok
+allred2 -n 3...ok
+allred2 -n 4...ok
+allred3 -n 2...ok
+allred3 -n 3...ok
+allred3 -n 4...ok
+allred4 -n 2...ok
+allred4 -n 3...ok
+allred4 -n 4...ok
+allred5 -n 2...ok
+allred5 -n 3...ok
+allred5 -n 4...ok
+allred5 -n 2...ok
+allred5 -n 3...ok
+allred5 -n 4...ok
+allred6 -n 2...ok
+allred6 -n 3...ok
+allred6 -n 4...ok
+allred6 -n 2...ok
+allred6 -n 3...ok
+allred6 -n 4...ok
+reduce -n 2...ok
+reduce -n 3...ok
+reduce -n 4...ok
+reduce -n 2...ok
+reduce -n 3...ok
+reduce -n 4...ok
+reduce_local-n 2...ok
+reduce_local-n 3...ok
+reduce_local-n 4...ok
+op_commutative -n 2...ok
+op_commutative -n 3...ok
+op_commutative -n 4...ok
+red3 -n 2...ok
+red3 -n 3...ok
+red3 -n 4...ok
+red4 -n 2...ok
+red4 -n 3...ok
+red4 -n 4...ok
+alltoall1 -n 2...ok
+alltoall1 -n 3...ok
+alltoall1 -n 4...ok
+alltoallv -n 2...ok
+alltoallv -n 3...ok
+alltoallv -n 4...ok
+alltoallv0 -n 2...ok
+alltoallv0 -n 3...ok
+alltoallv0 -n 4...ok
+alltoallw1 -n 2...ok
+alltoallw1 -n 3...ok
+alltoallw1 -n 4...ok
+alltoallw2 -n 2...ok
+alltoallw2 -n 3...ok
+alltoallw2 -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+alltoallw_zeros -n 2...ok
+alltoallw_zeros -n 3...ok
+alltoallw_zeros -n 4...ok
+allgather2 -n 2...ok
+allgather2 -n 3...ok
+allgather2 -n 4...ok
+allgather3 -n 2...ok
+allgather3 -n 3...ok
+allgather3 -n 4...ok
+allgatherv2 -n 2...ok
+allgatherv2 -n 3...ok
+allgatherv2 -n 4...ok
+allgatherv3 -n 2...ok
+allgatherv3 -n 3...ok
+allgatherv3 -n 4...ok
+allgatherv4 -n 2...
+out:
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 27238 RUNNING AT umar-Inspiron-3521
+=   EXIT CODE: 136
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Floating point exception (signal 8)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+
+allgatherv4 -n 3...ok
+allgatherv4 -n 4...ok
+allgather_struct -n 2...ok
+allgather_struct -n 3...ok
+allgather_struct -n 4...ok
+bcasttest -n 2...ok
+bcasttest -n 3...ok
+bcasttest -n 4...ok
+bcasttest -n 2...ok
+bcasttest -n 3...ok
+bcasttest -n 4...ok
+bcasttest -n 2...ok
+bcasttest -n 3...ok
+bcasttest -n 4...ok
+bcast_full -n 2...timed out
+bcast_full -n 3...timed out
+bcast_full -n 4...timed out
+coll2 -n 2...ok
+coll2 -n 3...
+out:
+coll2 -n 4...
+out:
+coll3 -n 2...ok
+coll3 -n 3...
+out:
+coll3 -n 4...
+out:
+coll4 -n 2...ok
+coll4 -n 3...ok
+coll4 -n 4...ok
+coll5 -n 2...ok
+coll5 -n 3...ok
+coll5 -n 4...ok
+coll6 -n 2...ok
+coll6 -n 3...
+out:
+coll6 -n 4...
+out:
+coll7 -n 2...ok
+coll7 -n 3...
+out:
+coll7 -n 4...
+out:
+coll7 -n 2...ok
+coll7 -n 3...
+out:
+coll7 -n 4...
+out:
+coll7 -n 2...ok
+coll7 -n 3...
+out:
+coll7 -n 4...
+out:
+coll8 -n 2...ok
+coll8 -n 3...ok
+coll8 -n 4...ok
+coll9 -n 2...ok
+coll9 -n 3...ok
+coll9 -n 4...ok
+coll10 -n 2...ok
+coll10 -n 3...ok
+coll10 -n 4...ok
+coll11 -n 2...ok
+coll11 -n 3...ok
+coll11 -n 4...ok
+coll12 -n 2...ok
+coll12 -n 3...ok
+coll12 -n 4...ok
+coll13 -n 2...ok
+coll13 -n 3...ok
+coll13 -n 4...ok
+longuser -n 2...ok
+longuser -n 3...ok
+longuser -n 4...ok
+redscat -n 2...ok
+redscat -n 3...ok
+redscat -n 4...ok
+redscat -n 2...ok
+redscat -n 3...ok
+redscat -n 4...ok
+redscat2 -n 2...ok
+redscat2 -n 3...ok
+redscat2 -n 4...ok
+redscat2 -n 2...ok
+redscat2 -n 3...ok
+redscat2 -n 4...ok
+redscat2 -n 2...ok
+redscat2 -n 3...ok
+redscat2 -n 4...ok
+redscat3 -n 2...ok
+redscat3 -n 3...ok
+redscat3 -n 4...ok
+redscatinter -n 2...ok
+redscatinter -n 3...ok
+redscatinter -n 4...ok
+red_scat_block -n 2...ok
+red_scat_block -n 3...ok
+red_scat_block -n 4...ok
+red_scat_block -n 2...ok
+red_scat_block -n 3...ok
+red_scat_block -n 4...ok
+red_scat_block -n 2...ok
+red_scat_block -n 3...ok
+red_scat_block -n 4...ok
+red_scat_block2 -n 2...ok
+red_scat_block2 -n 3...ok
+red_scat_block2 -n 4...ok
+red_scat_block2 -n 2...ok
+red_scat_block2 -n 3...ok
+red_scat_block2 -n 4...ok
+red_scat_block2 -n 2...ok
+red_scat_block2 -n 3...ok
+red_scat_block2 -n 4...ok
+redscatblk3 -n 2...ok
+redscatblk3 -n 3...ok
+redscatblk3 -n 4...ok
+redscatblk3 -n 2...ok
+redscatblk3 -n 3...ok
+redscatblk3 -n 4...ok
+redscatbkinter -n 2...ok
+redscatbkinter -n 3...ok
+redscatbkinter -n 4...ok
+redscatbkinter -n 2...ok
+redscatbkinter -n 3...ok
+redscatbkinter -n 4...ok
+scantst -n 2...ok
+scantst -n 3...ok
+scantst -n 4...ok
+exscan -n 2...ok
+exscan -n 3...ok
+exscan -n 4...ok
+exscan2 -n 2...ok
+exscan2 -n 3...ok
+exscan2 -n 4...ok
+gather -n 2...ok
+gather -n 3...ok
+gather -n 4...ok
+gather2 -n 2...ok
+gather2 -n 3...ok
+gather2 -n 4...ok
+gather_big -n 2...
+out:
+gather_big -n 3...
+out:
+gather_big -n 4...timed out
+scattern-n 2...ok
+scattern-n 3...ok
+scattern-n 4...ok
+scatter2 -n 2...ok
+scatter2 -n 3...ok
+scatter2 -n 4...ok
+scatter3 -n 2...ok
+scatter3 -n 3...ok
+scatter3 -n 4...ok
+scatterv -n 2...ok
+scatterv -n 3...ok
+scatterv -n 4...ok
+icbcast -n 2...ok
+icbcast -n 3...ok
+icbcast -n 4...ok
+icbcast -n 2...ok
+icbcast -n 3...ok
+icbcast -n 4...ok
+icallreduce -n 2...ok
+icallreduce -n 3...ok
+icallreduce -n 4...ok
+icallreduce -n 2...ok
+icallreduce -n 3...ok
+icallreduce -n 4...ok
+icreduce -n 2...ok
+icreduce -n 3...ok
+icreduce -n 4...ok
+icreduce -n 2...ok
+icreduce -n 3...ok
+icreduce -n 4...ok
+icscatter -n 2...ok
+icscatter -n 3...ok
+icscatter -n 4...ok
+icscatter -n 2...ok
+icscatter -n 3...ok
+icscatter -n 4...ok
+icgather -n 2...ok
+icgather -n 3...ok
+icgather -n 4...ok
+icgather -n 2...ok
+icgather -n 3...ok
+icgather -n 4...ok
+icallgather -n 2...ok
+icallgather -n 3...ok
+icallgather -n 4...ok
+icallgather -n 2...ok
+icallgather -n 3...ok
+icallgather -n 4...ok
+icbarrier -n 2...ok
+icbarrier -n 3...ok
+icbarrier -n 4...ok
+icbarrier -n 2...ok
+icbarrier -n 3...ok
+icbarrier -n 4...ok
+icallgatherv -n 2...ok
+icallgatherv -n 3...ok
+icallgatherv -n 4...ok
+icallgatherv -n 2...ok
+icallgatherv -n 3...ok
+icallgatherv -n 4...ok
+icgatherv -n 2...ok
+icgatherv -n 3...ok
+icgatherv -n 4...ok
+icgatherv -n 2...ok
+icgatherv -n 3...ok
+icgatherv -n 4...ok
+icscatterv -n 2...ok
+icscatterv -n 3...ok
+icscatterv -n 4...ok
+icscatterv -n 2...ok
+icscatterv -n 3...ok
+icscatterv -n 4...ok
+icalltoall -n 2...ok
+icalltoall -n 3...ok
+icalltoall -n 4...ok
+icalltoall -n 2...ok
+icalltoall -n 3...ok
+icalltoall -n 4...ok
+icalltoallv -n 2...ok
+icalltoallv -n 3...ok
+icalltoallv -n 4...ok
+icalltoallv -n 2...ok
+icalltoallv -n 3...ok
+icalltoallv -n 4...ok
+icalltoallw -n 2...ok
+icalltoallw -n 3...ok
+icalltoallw -n 4...ok
+icalltoallw -n 2...ok
+icalltoallw -n 3...ok
+icalltoallw -n 4...ok
+opland -n 2...ok
+opland -n 3...ok
+opland -n 4...ok
+oplor -n 2...ok
+oplor -n 3...ok
+oplor -n 4...ok
+oplxor -n 2...ok
+oplxor -n 3...ok
+oplxor -n 4...ok
+oplxor -n 2...ok
+oplxor -n 3...ok
+oplxor -n 4...ok
+opband -n 2...ok
+opband -n 3...ok
+opband -n 4...ok
+opbor -n 2...ok
+opbor -n 3...ok
+opbor -n 4...ok
+opbxor -n 2...ok
+opbxor -n 3...ok
+opbxor -n 4...ok
+opbxor -n 2...ok
+opbxor -n 3...ok
+opbxor -n 4...ok
+opprod -n 2...ok
+opprod -n 3...ok
+opprod -n 4...ok
+opprod -n 2...ok
+opprod -n 3...ok
+opprod -n 4...ok
+opsum -n 2...ok
+opsum -n 3...ok
+opsum -n 4...ok
+opmin -n 2...ok
+opmin -n 3...ok
+opmin -n 4...ok
+opminloc -n 2...ok
+opminloc -n 3...ok
+opminloc -n 4...ok
+opmax -n 2...ok
+opmax -n 3...ok
+opmax -n 4...ok
+opmaxloc -n 2...ok
+opmaxloc -n 3...ok
+opmaxloc -n 4...ok
+uoplong -n 2...ok
+uoplong -n 3...ok
+uoplong -n 4...ok
+uoplong -n 2...ok
+uoplong -n 3...ok
+uoplong -n 4...ok
+uoplong -n 2...ok
+uoplong -n 3...ok
+uoplong -n 4...ok
+nonblocking -n 2...ok
+nonblocking -n 3...ok
+nonblocking -n 4...ok
+nonblocking -n 2...ok
+nonblocking -n 3...ok
+nonblocking -n 4...ok
+nonblocking -n 2...ok
+nonblocking -n 3...ok
+nonblocking -n 4...ok
+nonblocking2 -n 2...ok
+nonblocking2 -n 3...ok
+nonblocking2 -n 4...ok
+nonblocking2 -n 2...ok
+nonblocking2 -n 3...ok
+nonblocking2 -n 4...ok
+nonblocking2 -n 2...ok
+nonblocking2 -n 3...ok
+nonblocking2 -n 4...ok
+nonblocking2 -n 2...ok
+nonblocking2 -n 3...ok
+nonblocking2 -n 4...ok
+nonblocking3 -n 2...ok
+nonblocking3 -n 3...ok
+nonblocking3 -n 4...timed out
+nonblocking3 -n 2...ok
+nonblocking3 -n 3...ok
+nonblocking3 -n 4...timed out
+nonblocking3 -n 2...ok
+nonblocking3 -n 3...ok
+nonblocking3 -n 4...timed out
+nonblocking3 -n 2...ok
+nonblocking3 -n 3...ok
+nonblocking3 -n 4...timed out
+iallred -n 2...ok
+iallred -n 3...timed out
+iallred -n 4...timed out
+ibarrier-n 2...ok
+ibarrier-n 3...ok
+ibarrier-n 4...ok
+nballtoall1 -n 2...ok
+nballtoall1 -n 3...ok
+nballtoall1 -n 4...ok
+nbcoll2 -n 2...ok
+nbcoll2 -n 3...
+out:
+nbcoll2 -n 4...
+out:
+nbredscat-n 2...ok
+nbredscat-n 3...ok
+nbredscat-n 4...ok
+nbredscat-n 2...ok
+nbredscat-n 3...ok
+nbredscat-n 4...ok
+nbredscat3-n 2...ok
+nbredscat3-n 3...ok
+nbredscat3-n 4...ok
+nbredscatinter-n 2...ok
+nbredscatinter-n 3...ok
+nbredscatinter-n 4...ok
+nbicbcast -n 2...ok
+nbicbcast -n 3...ok
+nbicbcast -n 4...ok
+nbicallreduce-n 2...ok
+nbicallreduce-n 3...ok
+nbicallreduce-n 4...ok
+nbicreduce -n 2...ok
+nbicreduce -n 3...ok
+nbicreduce -n 4...ok
+nbicscatter-n 2...ok
+nbicscatter-n 3...ok
+nbicscatter-n 4...ok
+nbicgather -n 2...ok
+nbicgather -n 3...ok
+nbicgather -n 4...ok
+nbicallgather-n 2...ok
+nbicallgather-n 3...ok
+nbicallgather-n 4...ok
+nbicbarrier -n 2...ok
+nbicbarrier -n 3...ok
+nbicbarrier -n 4...ok
+nbicallgatherv-n 2...ok
+nbicallgatherv-n 3...ok
+nbicallgatherv-n 4...ok
+nbicgatherv -n 2...ok
+nbicgatherv -n 3...ok
+nbicgatherv -n 4...ok
+nbicscatterv-n 2...ok
+nbicscatterv-n 3...ok
+nbicscatterv-n 4...ok
+nbicalltoall-n 2...ok
+nbicalltoall-n 3...ok
+nbicalltoall-n 4...ok
+nbicalltoallv-n 2...ok
+nbicalltoallv-n 3...ok
+nbicalltoallv-n 4...ok
+nbicalltoallw-n 2...ok
+nbicalltoallw-n 3...ok
+nbicalltoallw-n 4...ok
+allred -n 2...ok
+allred -n 2...ok
+allred -n 3...ok
+allred -n 3...ok
+allred -n 4...ok
+allred -n 4...ok
+allred -n 2...ok
+allred -n 2...ok
+allred -n 3...ok
+allred -n 3...ok
+allred -n 4...ok
+allred -n 4...ok
+allred-n 2...ok
+allred-n 2...ok
+allred-n 3...ok
+allred-n 3...ok
+allred-n 4...ok
+allred-n 4...ok
+allredmany -n 2...ok
+allredmany -n 2...ok
+allredmany -n 3...ok
+allredmany -n 3...ok
+allredmany -n 4...ok
+allredmany -n 4...ok
+allred2 -n 2...ok
+allred2 -n 2...ok
+allred2 -n 3...ok
+allred2 -n 3...ok
+allred2 -n 4...ok
+allred2 -n 4...ok
+allred3 -n 2...ok
+allred3 -n 2...ok
+allred3 -n 3...ok
+allred3 -n 3...ok
+allred3 -n 4...ok
+allred3 -n 4...ok
+allred4 -n 2...ok
+allred4 -n 2...ok
+allred4 -n 3...ok
+allred4 -n 3...ok
+allred4 -n 4...ok
+allred4 -n 4...ok
+allred5 -n 2...ok
+allred5 -n 2...ok
+allred5 -n 3...ok
+allred5 -n 3...ok
+allred5 -n 4...ok
+allred5 -n 4...ok
+allred5 -n 2...ok
+allred5 -n 2...ok
+allred5 -n 3...ok
+allred5 -n 3...ok
+allred5 -n 4...ok
+allred5 -n 4...ok
+allred6 -n 2...ok
+allred6 -n 2...ok
+allred6 -n 3...ok
+allred6 -n 3...ok
+allred6 -n 4...ok
+allred6 -n 4...ok
+allred6 -n 2...ok
+allred6 -n 2...ok
+allred6 -n 3...ok
+allred6 -n 3...ok
+allred6 -n 4...ok
+allred6 -n 4...ok
+reduce -n 2...ok
+reduce -n 2...ok
+reduce -n 3...ok
+reduce -n 3...ok
+reduce -n 4...ok
+reduce -n 4...ok
+reduce -n 2...ok
+reduce -n 2...ok
+reduce -n 3...ok
+reduce -n 3...ok
+reduce -n 4...ok
+reduce -n 4...ok
+reduce_local-n 2...ok
+reduce_local-n 2...ok
+reduce_local-n 3...ok
+reduce_local-n 3...ok
+reduce_local-n 4...ok
+reduce_local-n 4...ok
+op_commutative -n 2...ok
+op_commutative -n 2...ok
