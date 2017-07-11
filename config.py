@@ -5,13 +5,15 @@ passed = 0
 failed = 0
 timedout = 0
 other = 0
-mpiexec = "/home/umar/mpich-install/bin/mpiexec"
-testlistPaths = ["/home/umar/Downloads/mpich-3.2/test/mpi/coll/","/home/umar/Downloads/mpich-3.2/test/mpi/pt2pt/"]
+mpilauncher = "/home/umar/mpich-install/bin/mpiexec"
+testlistPaths = ["/home/umar/Downloads/mpich-3.2/test/mpi/coll/"]
 timeLimit = 5
 os.environ['MPIEXEC_TIMEOUT'] = str(timeLimit) #need to clarify about this
 
 def executeProg(n,testlistPath,testProg,otherArgs):
-	command = mpiexec + " -n "+ str(n)+" "+ testlistPath + testProg
+	#add space character before other args, also deal with -n outside this, in the if condition
+	command = mpilauncher + " -n "+ str(n)+otherArgs+" "+ testlistPath + testProg
+	print command
 	args = shlex.split(command)
 	p = subprocess.Popen(args, stdout = subprocess.PIPE)
 	out, err = p.communicate()
@@ -48,20 +50,23 @@ if len(sys.argv) == 1:
 		results = open('results-'+x[len(x)-2],'a+')
 		for testProg in testlist:
 			#print testProg
-			if not testProg.startswith('#') and not testProg[0].isdigit(): #to ignore comments and commented tests
+			if not testProg.startswith('#') and not testProg[0].isdigit() and not (testProg[0] == '-'): #to ignore comments and commented tests
 				for i in range (2,5):
 					out,err = executeProg(i,testlistPath,testProg,'') #the last argument is empty as discussed for new flags before the program.
 					update(err,out,testProg,i,results)					
 			elif testProg[0].isdigit():
+				#print "not working with range data"
 				i = int(testProg[0])
 				testProg = testProg[2:]
 				out,err = executeProg(i,testlistPath,testProg,'')
 				update(err,out,testProg,i,results)
+			else:
+				print "deal with the argument string", testProg
 		results.close()
 		print "passed: ",passed,"failed: ",failed,"timedout: ",timedout,"other: ",other
 elif sys.argv[1] == '-p':
 	for i in range (2,5):
-		command = mpiexec + str(i)+" "+ testlistPath + sys.argv[2]
+		command = mpilauncher + str(i)+" "+ testlistPath + sys.argv[2]
 		if len(sys.argv) > 3:
 			for i in range(3,len(sys.argv)):
 				command = command+ ' '+sys.argv[i]

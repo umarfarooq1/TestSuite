@@ -1,0 +1,22 @@
+allred 100-n 4...ok
+allred 100-n 4...ok
+allred 100-n 4...ok
+allred -n 2...ok
+allred -n 3...ok
+allred -n 4...ok
+allred-n 7...timed out
+allred 100-n 4...ok
+-n 4 -f host allred-n 2...
+out:
+-n 4 -f host allred-n 3...
+out:
+-n 4 -f host allred-n 4...
+out:
+allred 100-n 4...ok
+-n 4 -f host allred-n 2...
+out:
+-n 4 -f host allred-n 3...
+out:
+-n 4 -f host allred-n 4...
+out:
+allred 100-n 4...ok
