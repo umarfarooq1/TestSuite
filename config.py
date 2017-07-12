@@ -5,8 +5,9 @@ passed = 0
 failed = 0
 timedout = 0
 other = 0
-mpilauncher = "/home/umar/mpich-install/bin/mpiexec"
-testlistPaths = ["/home/umar/Downloads/mpich-3.2/test/mpi/coll/"]
+mpilauncher = "/export/installs/mpi/mpich-3.2/bin/mpiexec"
+testlistPath = "/home/18100155/helloworld/"#"/export/installs/mpi/mpich-3.2-testsuite/coll/"
+testlistPaths = ["/export/installs/mpi/mpich-3.2-testsuite/coll/"]
 timeLimit = 5
 os.environ['MPIEXEC_TIMEOUT'] = str(timeLimit) #need to clarify about this
 
@@ -66,12 +67,5 @@ if len(sys.argv) == 1:
 		print "passed: ",passed,"failed: ",failed,"timedout: ",timedout,"other: ",other
 elif sys.argv[1] == '-p':
 	for i in range (2,5):
-		command = mpilauncher + str(i)+" "+ testlistPath + sys.argv[2]
-		if len(sys.argv) > 3:
-			for i in range(3,len(sys.argv)):
-				command = command+ ' '+sys.argv[i]
-		args = shlex.split(command)
-		#print args
-		p = subprocess.Popen(args, stdout = subprocess.PIPE)
-		out, err = p.communicate()
+		out,err = executeProg(i,testlistPath,sys.argv[2],'')
 		print out,err
