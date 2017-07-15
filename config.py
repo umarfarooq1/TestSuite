@@ -13,7 +13,7 @@ os.environ['MPIEXEC_TIMEOUT'] = str(timeLimit) #need to clarify about this
 
 def executeProg(n,testlistPath,testProg,otherArgs):
 	#add space character before other args, also deal with -n outside this, in the if condition
-	command = mpilauncher + " -n "+ str(n)+otherArgs+" "+ testlistPath + testProg
+	command = mpilauncher + " -n "+ str(n)+" "+otherArgs+" "+ testlistPath + testProg
 	print command
 	args = shlex.split(command)
 	p = subprocess.Popen(args, stdout = subprocess.PIPE)
@@ -66,6 +66,23 @@ if len(sys.argv) == 1:
 		results.close()
 		print "passed: ",passed,"failed: ",failed,"timedout: ",timedout,"other: ",other
 elif sys.argv[1] == '-p':
-	for i in range (2,5):
-		out,err = executeProg(i,testlistPath,sys.argv[2],'')
-		print out,err
+	testProg = sys.argv[-1]
+	sys.argv = sys.argv[2:-1]
+	if len(sys.argv) > 0:
+		args = dict()
+		argIter = iter(sys.argv)
+		for i in argIter:
+			args[i] = next(argIter)
+		argString = ""
+		for k in args:
+			if not(k == '-n'):
+				argString = argString+str(k)+" "+str(args[k])+" "
+		argString = argString.strip()
+		#print argString	
+		out,err = executeProg(int(args['-n']),testlistPath,testProg,argString)
+                print out,err			
+	else:
+		print "Same old logic"
+		for i in range (2,5):
+			out,err = executeProg(i,testlistPath,testProg,'')
+			print out,err
