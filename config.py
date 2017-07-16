@@ -1,6 +1,7 @@
 import subprocess,shlex,os,sys
 #need to figure out this case, p2pt testlist
 #scancel 2 xfail=ticket2266 xfail=ticket2270
+#@largetest@gather_big 8
 passed = 0
 failed = 0
 timedout = 0
@@ -8,7 +9,7 @@ other = 0
 mpilauncher = "/export/installs/mpi/mpich-3.2/bin/mpiexec"
 testlistPath = "/home/18100155/helloworld/"#"/export/installs/mpi/mpich-3.2-testsuite/coll/"
 testlistPaths = ["/export/installs/mpi/mpich-3.2-testsuite/coll/"]
-timeLimit = 5
+timeLimit = 1200
 os.environ['MPIEXEC_TIMEOUT'] = str(timeLimit) #need to clarify about this
 
 def executeProg(n,testlistPath,testProg,otherArgs):
