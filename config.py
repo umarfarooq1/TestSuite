@@ -62,7 +62,21 @@ if len(sys.argv) == 1:
 				out,err = executeProg(i,testlistPath,testProg,'')
 				update(err,out,testProg,i,results)
 			else:
-				print "deal with the argument string", testProg
+				sysargv = testProg.split(' ')
+				testProg = sysargv[-1]
+				sysargv = sysargv[:-1]
+				args = dict()
+				argIter = iter(sysargv)
+				for i in argIter:
+					args[i] = next(argIter)
+				argString = ""
+		                for k in args:
+                		        if not(k == '-n'):
+                                		argString = argString+str(k)+" "+str(args[k])+" "
+                			argString = argString.strip()
+		                out,err = executeProg(int(args['-n']),testlistPath,testProg,argString)
+                		print out,err
+				update(err,out,testProg,i,results)
 		results.close()
 		print "passed: ",passed,"failed: ",failed,"timedout: ",timedout,"other: ",other
 elif sys.argv[1] == '-p':
