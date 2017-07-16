@@ -1,9 +1,9 @@
-sendrecv1 4
-sendrecv2 2
-sendrecv3 2
-sendflood 8 timeLimit=600
-sendself 1
-sendall 4
+4 sendrecv1 
+2 sendrecv2 
+2 sendrecv3 
+8 sendflood 
+1 sendself 
+4 sendall 
 2 anyall 
 2 eagerdt 
 2 pingping 

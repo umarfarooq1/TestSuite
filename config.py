@@ -8,7 +8,7 @@ timedout = 0
 other = 0
 mpilauncher = "/export/installs/mpi/mpich-3.2/bin/mpiexec"
 testlistPath = "/export/installs/mpi/mpich-3.2-testsuite/coll/"
-testlistPaths = ["/export/installs/mpi/mpich-3.2-testsuite/coll/"]
+testlistPaths = ["/export/installs/mpi/mpich-3.2-testsuite/pt2pt/","/export/installs/mpi/mpich-3.2-testsuite/coll/"]
 timeLimit = 1200
 os.environ['MPIEXEC_TIMEOUT'] = str(timeLimit) #need to clarify about this
 
@@ -17,7 +17,7 @@ def executeProg(n,testlistPath,testProg,otherArgs):
 	if testProg[0]==' ':
 		testProg = testProg[1:]
 	command = mpilauncher + " -n "+ str(n)+" "+otherArgs+testlistPath+testProg #mpilauncher + " -n "+ str(n)+" "+otherArgs+" "+ testlistPath + testProg
-	#print command
+	print command
 	args = shlex.split(command)
 	p = subprocess.Popen(args, stdout = subprocess.PIPE)
 	out, err = p.communicate()
@@ -59,7 +59,7 @@ if len(sys.argv) == 1:
 					out,err = executeProg(i,testlistPath,testProg,'') #the last argument is empty as discussed for new flags before the program.
 					update(err,out,testProg,i,results)					
 			elif testProg[0].isdigit():
-				#print "not working with range data"
+				print "not working with range data"
 				i = int(testProg[0])
 				testProg = testProg[2:]
 				testProg.replace(" ","")
