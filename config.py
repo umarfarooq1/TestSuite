@@ -48,7 +48,7 @@ def update(err,out,testProg,n,results):
 if len(sys.argv) == 1:
 	for testlistPath in testlistPaths:
 		x = testlistPath.split('/')
-		testFile = open(x[len(x)-2])
+		testFile = open(x[len(x)-2]+'1') #this is the place for specifying testlist
 		testlist = testFile.read().strip().split('\n')
 		testFile.close()
 		results = open('results-'+x[len(x)-2],'a+')

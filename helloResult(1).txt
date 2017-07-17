@@ -1,0 +1,8 @@
+srun: error: Unable to create job step: Job/step already completing or completed
+slurmstepd: error: *** JOB 162 ON compute-0-0 CANCELLED AT 2017-07-18T03:34:01 DUE TO TIME LIMIT ***
+[mpiexec@compute-0-0.local] HYDU_sock_write (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/sock/sock.c:286): write error (Bad file descriptor)
+[mpiexec@compute-0-0.local] HYD_pmcd_pmiserv_send_signal (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@compute-0-0.local] ui_cmd_cb (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@compute-0-0.local] HYDT_dmxu_poll_wait_for_event (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@compute-0-0.local] HYD_pmci_wait_for_completion (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@compute-0-0.local] main (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/ui/mpich/mpiexec.c:344): process manager error waiting for completion
