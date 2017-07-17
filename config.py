@@ -21,7 +21,7 @@ def executeProg(n,testlistPath,testProg,otherArgs):
 	args = shlex.split(command)
 	p = subprocess.Popen(args, stdout = subprocess.PIPE)
 	out, err = p.communicate()
-	return out,err
+	return "No Errors",None#out,err
 
 def update(err,out,testProg,n,results):
 	if err is None and "no errors" in out.lower():
@@ -71,15 +71,23 @@ if len(sys.argv) == 1:
 				testProg = sysargv[-1]
 				sysargv = sysargv[:-1]
 				args = dict()
+				params = ''
 				argIter = iter(sysargv)
 				for i in argIter:
-					args[i] = next(argIter)
+					if i == '-args':
+						x = next(argIter)
+						x = x.replace("[","")
+						x = x.replace("]","")
+						x = ' '.join(x.split(','))
+						params = x
+					else:
+						args[i] = next(argIter)
 				argString = ""
 		                for k in args:
                 		        if not(k == '-n'):
                                 		argString = argString+str(k)+" "+str(args[k])+" "
                 		argString = argString.strip()
-		                out,err = executeProg(int(args['-n']),testlistPath,testProg,argString)
+		                out,err = executeProg(int(args['-n']),testlistPath,testProg+" "+params,argString)
                 		print out,err
 				update(err,out,testProg,i,results)
 		results.close()
@@ -89,16 +97,25 @@ elif sys.argv[1] == '-p':
 	sys.argv = sys.argv[2:-1]
 	if len(sys.argv) > 0:
 		args = dict()
+		params = ''
 		argIter = iter(sys.argv)
 		for i in argIter:
-			args[i] = next(argIter)
+			if i == '-args':
+				x = next(argIter)
+				x = x.replace("[","")
+				x = x.replace("]","")
+				x = ' '.join(x.split(','))
+				params = x
+			else:
+				args[i] = next(argIter)
 		argString = ""
+		#print args
 		for k in args:
 			if not(k == '-n'):
 				argString = argString+str(k)+" "+str(args[k])+" "
 		#argString = argString.strip()
 		#print argString	
-		out,err = executeProg(int(args['-n']),testlistPath,testProg,argString)
+		out,err = executeProg(int(args['-n']),testlistPath,testProg+" "+params,argString)
                 print out,err			
 	else:
 		print "Same old logic"
