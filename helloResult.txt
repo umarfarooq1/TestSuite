@@ -1,0 +1,410 @@
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+[proxy:0:0@compute-0-0.local] HYDU_create_process (/export/home/research/humaira/sources/mpich-3.2/src/pm/hydra/utils/launch/launch.c:75): execvp error on file /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big (No such file or directory)
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/sendrecv1 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/sendrecv2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/sendrecv3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/sendflood 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/sendself 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/sendall 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/anyall 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/eagerdt 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/pingping 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bottom 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsend1 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsend2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsend3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsend4 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsend5 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsendalign 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsendpending
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/isendself 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/issendselfcancel 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/isendirecv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/bsendfrag 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/icsend 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/rqstatus 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/rqfreeb 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/greq1 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/probe-unexp 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/probenull 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/scancel 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/scancel2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/pscancel 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/rcancel 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/cancelrecv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/scancel_unmatch 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/cancelanysrc 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/isendselfprobe 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/inactivereq 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/waittestnull 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/waitany-null 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/mprobe 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/pt2pt/big_count_status
+passed:  40 failed:  0 timedout:  0 other:  0
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/allred 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/allred 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/allred 100
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/allredmany 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/allred2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/allred3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/allred4 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/allred5 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/allred5 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/allred6 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/allred6 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/reduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/reduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/coll/reduce_local  
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/coll/op_commutative 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/red3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/red4 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoall1 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallv0 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallw1 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallw2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallw_zeros 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallw_zeros 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallw_zeros 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/alltoallw_zeros 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/allgather2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/allgather3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/allgatherv2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/allgatherv3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/allgatherv4 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/allgather_struct 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/bcasttest 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/bcasttest 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/bcasttest 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/bcast_full 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/bcast_min_datatypes 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/bcast_comm_world 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/bcastzerotype 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/bcastzerotype 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/bcastzerotype 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/bcastzerotype 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/coll2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/coll3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll4 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll5 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/coll6 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/coll7 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/coll/coll7 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/coll7 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll8 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll9 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll10 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll11 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll12 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/coll13 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/longuser 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/redscat 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 6  /export/installs/mpi/mpich-3.2-testsuite/coll/redscat 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/redscat2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/redscat2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/redscat2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/redscat3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/redscatinter 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/red_scat_block
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/red_scat_block 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/red_scat_block 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/red_scat_block2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/red_scat_block2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/red_scat_block2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/redscatblk3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/redscatblk3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/redscatbkinter 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/redscatbkinter 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/scantst 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/exscan 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/exscan2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/gather 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/gather2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/@largetest@gather_big 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/scattern 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/scatter2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/scatter3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/scatterv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/icbcast 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/icbcast 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icallreduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icallreduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icreduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icreduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icscatter 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icscatter 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icgather 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icgather 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icallgather 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icallgather 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icbarrier 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icbarrier 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icallgatherv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icallgatherv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icgatherv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icgatherv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icscatterv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icscatterv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icalltoall 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icalltoall 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icalltoallv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icalltoallv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/icalltoallw 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 7  /export/installs/mpi/mpich-3.2-testsuite/coll/icalltoallw 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/opland 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/oplor 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/oplxor 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/oplxor 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/opband 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/opbor 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/opbxor 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/opbxor 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/opprod 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 6  /export/installs/mpi/mpich-3.2-testsuite/coll/opprod 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/opsum 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/opmin 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/opminloc 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/opmax 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/opmaxloc 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/uoplong 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/uoplong 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/uoplong 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking2 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 1  /export/installs/mpi/mpich-3.2-testsuite/coll/nonblocking3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/coll/iallred 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 2  /export/installs/mpi/mpich-3.2-testsuite/coll/ibarrier 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nballtoall1 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 5  /export/installs/mpi/mpich-3.2-testsuite/coll/nbcoll2
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 4  /export/installs/mpi/mpich-3.2-testsuite/coll/nbredscat
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbredscat 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbredscat3 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbredscatinter
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicbcast 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicallreduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicreduce 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicscatter
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicgather 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicallgather 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicbarrier 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicallgatherv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicgatherv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicscatterv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicalltoall 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicalltoallv 
+not working with range data
+/export/installs/mpi/mpich-3.2/bin/mpiexec -n 8  /export/installs/mpi/mpich-3.2-testsuite/coll/nbicalltoallw
+passed:  199 failed:  0 timedout:  0 other:  1

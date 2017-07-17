@@ -1,6 +1,6 @@
 -n 4 -f hostfile allred
 -n 7 -f hostfile allred
--n 4 -f hostfile -args [100] allred 100
+-n 4 -f hostfile -args [100] allred
 -n 4 -f hostfile allredmany
 -n 4 -f hostfile allred2
 -n 10 -f hostfile allred3

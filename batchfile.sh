@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --job-name=mpihello
+#SBATCH --job-name=TestSuite
 #SBATCH --output=helloResult.txt
 #SBATCH -N20
 #SBATCH --ntasks-per-node=24

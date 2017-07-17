@@ -21,7 +21,7 @@ def executeProg(n,testlistPath,testProg,otherArgs):
 	args = shlex.split(command)
 	p = subprocess.Popen(args, stdout = subprocess.PIPE)
 	out, err = p.communicate()
-	return "No Errors",None#out,err
+	return out,err
 
 def update(err,out,testProg,n,results):
 	if err is None and "no errors" in out.lower():
@@ -48,7 +48,7 @@ def update(err,out,testProg,n,results):
 if len(sys.argv) == 1:
 	for testlistPath in testlistPaths:
 		x = testlistPath.split('/')
-		testFile = open(x[len(x)-2]+'1')
+		testFile = open(x[len(x)-2])
 		testlist = testFile.read().strip().split('\n')
 		testFile.close()
 		results = open('results-'+x[len(x)-2],'a+')
