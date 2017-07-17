@@ -16,7 +16,7 @@ def executeProg(n,testlistPath,testProg,otherArgs):
 	#add space character before other args, also deal with -n outside this, in the if condition
 	if testProg[0]==' ':
 		testProg = testProg[1:]
-	command = mpilauncher + " -n "+ str(n)+" "+otherArgs+testlistPath+testProg #mpilauncher + " -n "+ str(n)+" "+otherArgs+" "+ testlistPath + testProg
+	command = mpilauncher + " -n "+ str(n)+" "+otherArgs+" "+testlistPath+testProg #mpilauncher + " -n "+ str(n)+" "+otherArgs+" "+ testlistPath + testProg
 	print command
 	args = shlex.split(command)
 	p = subprocess.Popen(args, stdout = subprocess.PIPE)
@@ -48,7 +48,7 @@ def update(err,out,testProg,n,results):
 if len(sys.argv) == 1:
 	for testlistPath in testlistPaths:
 		x = testlistPath.split('/')
-		testFile = open(x[len(x)-2])
+		testFile = open(x[len(x)-2]+'1')
 		testlist = testFile.read().strip().split('\n')
 		testFile.close()
 		results = open('results-'+x[len(x)-2],'a+')
@@ -91,7 +91,11 @@ elif sys.argv[1] == '-p':
 		args = dict()
 		argIter = iter(sys.argv)
 		for i in argIter:
+			#print i,testProg
+			#if not '-' in i:
 			args[i] = next(argIter)
+			#else:
+			#	print i
 		argString = ""
 		for k in args:
 			if not(k == '-n'):
