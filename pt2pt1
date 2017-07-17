@@ -1,88 +1,44 @@
-4 -f hostfile sendrecv1
-2 -f hostfile sendrecv2
-2 -f hostfile sendrecv3
-8 -f hostfile sendflood
-1 -f hostfile sendself
-4 -f hostfile sendall
-2 -f hostfile anyall
-2 -f hostfile eagerdt
-2 -f hostfile pingping
-2 -f hostfile bottom
-1 -f hostfile bsend1
-1 -f hostfile bsend2
-1 -f hostfile bsend3
-1 -f hostfile bsend4
-4 -f hostfile bsend5
-2 -f hostfile bsendalign
-2 -f hostfile bsendpending
-1 -f hostfile isendself
-1 -f hostfile issendselfcancel
-10 -f hostfile isendirecv
-2 -f hostfile bsendfrag
-4 -f hostfile icsend
-2 -f hostfile rqstatus
-4 -f hostfile rqfreeb
-1 -f hostfile greq1
-4 -f hostfile probe-unexp
-1 -f hostfile probenull
+-n 4 -f hostfile sendrecv1
+-n 2 -f hostfile sendrecv2
+-n 2 -f hostfile sendrecv3
+-n 8 -f hostfile sendflood
+-n 1 -f hostfile sendself
+-n 4 -f hostfile sendall
+-n 2 -f hostfile anyall
+-n 2 -f hostfile eagerdt
+-n 2 -f hostfile pingping
+-n 2 -f hostfile bottom
+-n 1 -f hostfile bsend1
+-n 1 -f hostfile bsend2
+-n 1 -f hostfile bsend3
+-n 1 -f hostfile bsend4
+-n 4 -f hostfile bsend5
+-n 2 -f hostfile bsendalign
+-n 2 -f hostfile bsendpending
+-n 1 -f hostfile isendself
+-n 1 -f hostfile issendselfcancel
+-n 10 -f hostfile isendirecv
+-n 2 -f hostfile bsendfrag
+-n 4 -f hostfile icsend
+-n 2 -f hostfile rqstatus
+-n 4 -f hostfile rqfreeb
+-n 1 -f hostfile greq1
+-n 4 -f hostfile probe-unexp
+-n 1 -f hostfile probenull
 # For testing, scancel will run with 1 process as well
-2 -f hostfile scancel
-2 -f hostfile scancel2
-2 -f hostfile pscancel
-2 -f hostfile rcancel
-2 -f hostfile cancelrecv
-2 -f hostfile scancel_unmatch
-2 -f hostfile cancelanysrc
-1 -f hostfile isendselfprobe
-1 -f hostfile inactivereq
-1 -f hostfile waittestnull
-1 -f hostfile waitany-null
+-n 2 -f hostfile scancel
+-n 2 -f hostfile scancel2
+-n 2 -f hostfile pscancel
+-n 2 -f hostfile rcancel
+-n 2 -f hostfile cancelrecv
+-n 2 -f hostfile scancel_unmatch
+-n 2 -f hostfile cancelanysrc
+-n 1 -f hostfile isendselfprobe
+-n 1 -f hostfile inactivereq
+-n 1 -f hostfile waittestnull
+-n 1 -f hostfile waitany-null
 # this should be run only on machines with large amount of memory (>=8GB)
 # perhaps disable in the release tarball
 #large_message 3
-2 -f hostfile mprobe
-1 -f hostfile big_count_status
-4 -f hostfile sendrecv1
-2 -f hostfile sendrecv2
-2 -f hostfile sendrecv3
-8 -f hostfile sendflood
-1 -f hostfile sendself
-4 -f hostfile sendall
-2 -f hostfile anyall
-2 -f hostfile eagerdt
-2 -f hostfile pingping
-2 -f hostfile bottom
-1 -f hostfile bsend1
-1 -f hostfile bsend2
-1 -f hostfile bsend3
-1 -f hostfile bsend4
-4 -f hostfile bsend5
-2 -f hostfile bsendalign
-2 -f hostfile bsendpending
-1 -f hostfile isendself
-1 -f hostfile issendselfcancel
-10 -f hostfile isendirecv
-2 -f hostfile bsendfrag
-4 -f hostfile icsend
-2 -f hostfile rqstatus
-4 -f hostfile rqfreeb
-1 -f hostfile greq1
-4 -f hostfile probe-unexp
-1 -f hostfile probenull
-# For testing, scancel will run with 1 process as well
-2 -f hostfile scancel
-2 -f hostfile scancel2
-2 -f hostfile pscancel
-2 -f hostfile rcancel
-2 -f hostfile cancelrecv
-2 -f hostfile scancel_unmatch
-2 -f hostfile cancelanysrc
-1 -f hostfile isendselfprobe
-1 -f hostfile inactivereq
-1 -f hostfile waittestnull
-1 -f hostfile waitany-null
-# this should be run only on machines with large amount of memory (>=8GB)
-# perhaps disable in the release tarball
-#large_message 3
-2 -f hostfile mprobe
-1 -f hostfile big_count_status
+-n 2 -f hostfile mprobe
+-n 1 -f hostfile big_count_status

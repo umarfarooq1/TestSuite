@@ -1,167 +1,167 @@
-4 -f hostfile allred
-7 -f hostfile allred
-4 -f hostfile allred 100
-4 -f hostfile allredmany
-4 -f hostfile allred2
-10 -f hostfile allred3
-4 -f hostfile allred4
-5 -f hostfile allred5
-10 -f hostfile allred5
-4 -f hostfile allred6
-7 -f hostfile allred6
-5 -f hostfile reduce
-10 -f hostfile reduce
-2 -f hostfile reduce_local
-2 -f hostfile op_commutative
-10 -f hostfile red3
-10 -f hostfile red4
-8 -f hostfile alltoall1
-10 -f hostfile alltoallv
-10 -f hostfile alltoallv0
-10 -f hostfile alltoallw1
-10 -f hostfile alltoallw2
-1 -f hostfile alltoallw_zeros
-2 -f hostfile alltoallw_zeros
-5 -f hostfile alltoallw_zeros
-8 -f hostfile alltoallw_zeros
-10 -f hostfile allgather2
-10 -f hostfile allgather3
-10 -f hostfile allgatherv2
-10 -f hostfile allgatherv3
-4 -f hostfile allgatherv4
-10 -f hostfile allgather_struct
-4 -f hostfile bcasttest
-8 -f hostfile bcasttest
-10 -f hostfile bcasttest
-4 -f hostfile bcast_full
+-n 4 -f hostfile allred
+-n 7 -f hostfile allred
+-n 4 -f hostfile allred 100
+-n 4 -f hostfile allredmany
+-n 4 -f hostfile allred2
+-n 10 -f hostfile allred3
+-n 4 -f hostfile allred4
+-n 5 -f hostfile allred5
+-n 10 -f hostfile allred5
+-n 4 -f hostfile allred6
+-n 7 -f hostfile allred6
+-n 5 -f hostfile reduce
+-n 10 -f hostfile reduce
+-n 2 -f hostfile reduce_local
+-n 2 -f hostfile op_commutative
+-n 10 -f hostfile red3
+-n 10 -f hostfile red4
+-n 8 -f hostfile alltoall1
+-n 10 -f hostfile alltoallv
+-n 10 -f hostfile alltoallv0
+-n 10 -f hostfile alltoallw1
+-n 10 -f hostfile alltoallw2
+-n 1 -f hostfile alltoallw_zeros
+-n 2 -f hostfile alltoallw_zeros
+-n 5 -f hostfile alltoallw_zeros
+-n 8 -f hostfile alltoallw_zeros
+-n 10 -f hostfile allgather2
+-n 10 -f hostfile allgather3
+-n 10 -f hostfile allgatherv2
+-n 10 -f hostfile allgatherv3
+-n 4 -f hostfile allgatherv4
+-n 10 -f hostfile allgather_struct
+-n 4 -f hostfile bcasttest
+-n 8 -f hostfile bcasttest
+-n 10 -f hostfile bcasttest
+-n 4 -f hostfile bcast_full
 # More that 8 processes are required to get bcast to switch to the long
 # msg algorithm (see coll definitions in mpiimpl.h)
-10 -f hostfile bcast_min_datatypes
-10 -f hostfile bcast_comm_world
-1 -f hostfile bcastzerotype
-4 -f hostfile bcastzerotype
-5 -f hostfile bcastzerotype
-10 -f hostfile bcastzerotype
-5 -f hostfile coll2
-5 -f hostfile coll3
-4 -f hostfile coll4
-4 -f hostfile coll5
-5 -f hostfile coll6
-1 -f hostfile coll7
-2 -f hostfile coll7
-5 -f hostfile coll7
-4 -f hostfile coll8
-4 -f hostfile coll9
-4 -f hostfile coll10
-4 -f hostfile coll11
-4 -f hostfile coll12
-4 -f hostfile coll13
-4 -f hostfile longuser
-4 -f hostfile redscat
-6 -f hostfile redscat
-4 -f hostfile redscat2
-5 -f hostfile redscat2
-10 -f hostfile redscat2
-8 -f hostfile redscat3
-8 -f hostfile redscatinter
-4 -f hostfile red_scat_block
-5 -f hostfile red_scat_block
-8 -f hostfile red_scat_block
-4 -f hostfile red_scat_block2
-5 -f hostfile red_scat_block2
-10 -f hostfile red_scat_block2
-8 -f hostfile redscatblk3
-10 -f hostfile redscatblk3
-8 -f hostfile redscatbkinter
-10 -f hostfile redscatbkinter
-4 -f hostfile scantst
-10 -f hostfile exscan
-5 -f hostfile exscan2
-4 -f hostfile gather
-4 -f hostfile gather2
-8 -f hostfile @largetest@gather_big
-4 -f hostfile scattern
-4 -f hostfile scatter2
-4 -f hostfile scatter3
-4 -f hostfile scatterv
-4 -f hostfile icbcast
-10 -f hostfile icbcast
-5 -f hostfile icallreduce
-7 -f hostfile icallreduce
-5 -f hostfile icreduce
-7 -f hostfile icreduce
-5 -f hostfile icscatter
-7 -f hostfile icscatter
-5 -f hostfile icgather
-7 -f hostfile icgather
-5 -f hostfile icallgather
-7 -f hostfile icallgather
-5 -f hostfile icbarrier
-7 -f hostfile icbarrier
-5 -f hostfile icallgatherv
-7 -f hostfile icallgatherv
-5 -f hostfile icgatherv
-7 -f hostfile icgatherv
-5 -f hostfile icscatterv
-7 -f hostfile icscatterv
-5 -f hostfile icalltoall
-7 -f hostfile icalltoall
-5 -f hostfile icalltoallv
-7 -f hostfile icalltoallv
-5 -f hostfile icalltoallw
-7 -f hostfile icalltoallw
+-n 10 -f hostfile bcast_min_datatypes
+-n 10 -f hostfile bcast_comm_world
+-n 1 -f hostfile bcastzerotype
+-n 4 -f hostfile bcastzerotype
+-n 5 -f hostfile bcastzerotype
+-n 10 -f hostfile bcastzerotype
+-n 5 -f hostfile coll2
+-n 5 -f hostfile coll3
+-n 4 -f hostfile coll4
+-n 4 -f hostfile coll5
+-n 5 -f hostfile coll6
+-n 1 -f hostfile coll7
+-n 2 -f hostfile coll7
+-n 5 -f hostfile coll7
+-n 4 -f hostfile coll8
+-n 4 -f hostfile coll9
+-n 4 -f hostfile coll10
+-n 4 -f hostfile coll11
+-n 4 -f hostfile coll12
+-n 4 -f hostfile coll13
+-n 4 -f hostfile longuser
+-n 4 -f hostfile redscat
+-n 6 -f hostfile redscat
+-n 4 -f hostfile redscat2
+-n 5 -f hostfile redscat2
+-n 10 -f hostfile redscat2
+-n 8 -f hostfile redscat3
+-n 8 -f hostfile redscatinter
+-n 4 -f hostfile red_scat_block
+-n 5 -f hostfile red_scat_block
+-n 8 -f hostfile red_scat_block
+-n 4 -f hostfile red_scat_block2
+-n 5 -f hostfile red_scat_block2
+-n 10 -f hostfile red_scat_block2
+-n 8 -f hostfile redscatblk3
+-n 10 -f hostfile redscatblk3
+-n 8 -f hostfile redscatbkinter
+-n 10 -f hostfile redscatbkinter
+-n 4 -f hostfile scantst
+-n 10 -f hostfile exscan
+-n 5 -f hostfile exscan2
+-n 4 -f hostfile gather
+-n 4 -f hostfile gather2
+-n 8 -f hostfile @largetest@gather_big
+-n 4 -f hostfile scattern
+-n 4 -f hostfile scatter2
+-n 4 -f hostfile scatter3
+-n 4 -f hostfile scatterv
+-n 4 -f hostfile icbcast
+-n 10 -f hostfile icbcast
+-n 5 -f hostfile icallreduce
+-n 7 -f hostfile icallreduce
+-n 5 -f hostfile icreduce
+-n 7 -f hostfile icreduce
+-n 5 -f hostfile icscatter
+-n 7 -f hostfile icscatter
+-n 5 -f hostfile icgather
+-n 7 -f hostfile icgather
+-n 5 -f hostfile icallgather
+-n 7 -f hostfile icallgather
+-n 5 -f hostfile icbarrier
+-n 7 -f hostfile icbarrier
+-n 5 -f hostfile icallgatherv
+-n 7 -f hostfile icallgatherv
+-n 5 -f hostfile icgatherv
+-n 7 -f hostfile icgatherv
+-n 5 -f hostfile icscatterv
+-n 7 -f hostfile icscatterv
+-n 5 -f hostfile icalltoall
+-n 7 -f hostfile icalltoall
+-n 5 -f hostfile icalltoallv
+-n 7 -f hostfile icalltoallv
+-n 5 -f hostfile icalltoallw
+-n 7 -f hostfile icalltoallw
 # the opxxx tests look at optional types, and are included for MPICH testing.
 # MPI implementations may instead signal errors for these types
-4 -f hostfile opland
-4 -f hostfile oplor
-4 -f hostfile oplxor
-5 -f hostfile oplxor
-4 -f hostfile opband
-4 -f hostfile opbor
-4 -f hostfile opbxor
-5 -f hostfile opbxor
-5 -f hostfile opprod
-6 -f hostfile opprod
-4 -f hostfile opsum
-4 -f hostfile opmin
-4 -f hostfile opminloc
-5 -f hostfile opmax
-5 -f hostfile opmaxloc
-4 -f hostfile uoplong
-11 -f hostfile uoplong
-16 -f hostfile uoplong
-4 -f hostfile nonblocking
-5 -f hostfile nonblocking
-10 -f hostfile nonblocking
-1 -f hostfile nonblocking2
-4 -f hostfile nonblocking2
-5 -f hostfile nonblocking2
-10 -f hostfile nonblocking2
-1 -f hostfile nonblocking3
-4 -f hostfile nonblocking3
-5 -f hostfile nonblocking3
-10 -f hostfile nonblocking3
-2 -f hostfile iallred
+-n 4 -f hostfile opland
+-n 4 -f hostfile oplor
+-n 4 -f hostfile oplxor
+-n 5 -f hostfile oplxor
+-n 4 -f hostfile opband
+-n 4 -f hostfile opbor
+-n 4 -f hostfile opbxor
+-n 5 -f hostfile opbxor
+-n 5 -f hostfile opprod
+-n 6 -f hostfile opprod
+-n 4 -f hostfile opsum
+-n 4 -f hostfile opmin
+-n 4 -f hostfile opminloc
+-n 5 -f hostfile opmax
+-n 5 -f hostfile opmaxloc
+-n 4 -f hostfile uoplong
+-n 11 -f hostfile uoplong
+-n 16 -f hostfile uoplong
+-n 4 -f hostfile nonblocking
+-n 5 -f hostfile nonblocking
+-n 10 -f hostfile nonblocking
+-n 1 -f hostfile nonblocking2
+-n 4 -f hostfile nonblocking2
+-n 5 -f hostfile nonblocking2
+-n 10 -f hostfile nonblocking2
+-n 1 -f hostfile nonblocking3
+-n 4 -f hostfile nonblocking3
+-n 5 -f hostfile nonblocking3
+-n 10 -f hostfile nonblocking3
+-n 2 -f hostfile iallred
 # ibarrier will hang forever if it fails, but will complete quickly if it
 # succeeds
-2 -f hostfile ibarrier
+-n 2 -f hostfile ibarrier
 # run some of the tests, relinked with the nbc_pmpi_adaptor.o file
-8 -f hostfile nballtoall1
-5 -f hostfile nbcoll2
-4 -f hostfile nbredscat
-8 -f hostfile nbredscat
-8 -f hostfile nbredscat3
-8 -f hostfile nbredscatinter
-8 -f hostfile nbicbcast
-8 -f hostfile nbicallreduce
-8 -f hostfile nbicreduce
-8 -f hostfile nbicscatter
-8 -f hostfile nbicgather
-8 -f hostfile nbicallgather
-8 -f hostfile nbicbarrier
-8 -f hostfile nbicallgatherv
-8 -f hostfile nbicgatherv
-8 -f hostfile nbicscatterv
-8 -f hostfile nbicalltoall
-8 -f hostfile nbicalltoallv
-8 -f hostfile nbicalltoallw
+-n 8 -f hostfile nballtoall1
+-n 5 -f hostfile nbcoll2
+-n 4 -f hostfile nbredscat
+-n 8 -f hostfile nbredscat
+-n 8 -f hostfile nbredscat3
+-n 8 -f hostfile nbredscatinter
+-n 8 -f hostfile nbicbcast
+-n 8 -f hostfile nbicallreduce
+-n 8 -f hostfile nbicreduce
+-n 8 -f hostfile nbicscatter
+-n 8 -f hostfile nbicgather
+-n 8 -f hostfile nbicallgather
+-n 8 -f hostfile nbicbarrier
+-n 8 -f hostfile nbicallgatherv
+-n 8 -f hostfile nbicgatherv
+-n 8 -f hostfile nbicscatterv
+-n 8 -f hostfile nbicalltoall
+-n 8 -f hostfile nbicalltoallv
+-n 8 -f hostfile nbicalltoallw
