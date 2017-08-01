@@ -1,0 +1,4 @@
+[0] compute-0-16.local
+mpiexec -n 1 ./mm 4096 : Total running time = 855.622075 second
+mpiexec -n 1 ./mm 4096 : Distribute data time = 0.583522 second
+mpiexec -n 1 ./mm 4096 : Parallel compute time = 855.038553 second

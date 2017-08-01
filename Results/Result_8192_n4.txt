@@ -1,0 +1,7 @@
+[0] compute-0-13.local
+[1] compute-0-13.local
+[2] compute-0-13.local
+[3] compute-0-13.local
+mpiexec -n 4 ./mm 8192 : Total running time = 1743.985400 second
+mpiexec -n 4 ./mm 8192 : Distribute data time = 2.185417 second
+mpiexec -n 4 ./mm 8192 : Parallel compute time = 1741.799983 second

@@ -1,0 +1,19 @@
+[0] compute-0-16.local
+[1] compute-0-16.local
+[2] compute-0-16.local
+[3] compute-0-16.local
+[4] compute-0-16.local
+[5] compute-0-16.local
+[7] compute-0-16.local
+[8] compute-0-16.local
+[9] compute-0-16.local
+[6] compute-0-16.local
+[10] compute-0-16.local
+[11] compute-0-16.local
+[12] compute-0-16.local
+[13] compute-0-16.local
+[14] compute-0-16.local
+[15] compute-0-16.local
+mpiexec -n 16 ./mm 2048 : Total running time = 1.780625 second
+mpiexec -n 16 ./mm 2048 : Distribute data time = 0.363101 second
+mpiexec -n 16 ./mm 2048 : Parallel compute time = 1.417524 second
