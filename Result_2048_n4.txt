@@ -1,2 +1,0 @@
-[0] compute-0-19.local
-0 MPI Performance Variables
