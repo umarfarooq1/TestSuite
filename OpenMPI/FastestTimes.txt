@@ -1,0 +1,19 @@
+mpiexec -n 256 ./mm 16384 : Total running time = 86.002250 second
+mpiexec -n 256 ./mm 16384 : Distribute data time = 17.902766 second
+mpiexec -n 256 ./mm 16384 : Parallel compute time = 68.099484 second
+====================================================================
+mpiexec -n 64 ./mm 2048 : Total running time = 0.870123 second
+mpiexec -n 64 ./mm 2048 : Distribute data time = 0.552024 second
+mpiexec -n 64 ./mm 2048 : Parallel compute time = 0.318099 second
+====================================================================
+mpiexec -n 256 ./mm 32768 : Total running time = 621.111870 second
+mpiexec -n 256 ./mm 32768 : Distribute data time = 67.617084 second
+mpiexec -n 256 ./mm 32768 : Parallel compute time = 553.494786 second
+====================================================================
+mpiexec -n 256 ./mm 4096 : Total running time = 3.032304 second
+mpiexec -n 256 ./mm 4096 : Distribute data time = 2.154673 second
+mpiexec -n 256 ./mm 4096 : Parallel compute time = 0.877631 second
+====================================================================
+mpiexec -n 256 ./mm 8192 : Total running time = 11.809180 second
+mpiexec -n 256 ./mm 8192 : Distribute data time = 5.261635 second
+mpiexec -n 256 ./mm 8192 : Parallel compute time = 6.547545 second

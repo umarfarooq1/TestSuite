@@ -1,0 +1,3 @@
+mpiexec -n 256 ./mm 32768 : Total running time = 621.111870 second
+mpiexec -n 256 ./mm 32768 : Distribute data time = 67.617084 second
+mpiexec -n 256 ./mm 32768 : Parallel compute time = 553.494786 second
