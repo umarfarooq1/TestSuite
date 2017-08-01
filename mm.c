@@ -228,8 +228,8 @@ int main(int argc,  char *argv[])
    int i;
 
 //   int ret;
-   int err, numPvar;
-   int provided;   
+//   int err, numPvar;
+//   int provided;   
 
    float **A, **B, **C;              /* C = A * B */
    float *a, *b, *c, *tmp_a, *tmp_b; 
@@ -247,11 +247,11 @@ int main(int argc,  char *argv[])
 //   ret =  MPI_T_init_thread(MPI_THREAD_SINGLE, &provided);
 
 //	MPI_Init_thread(MPI_THREAD_SINGLE,&provided);
-        err = MPI_T_init_thread(MPI_THREAD_SINGLE,&provided);
-        if (err) MPI_Abort(MPI_COMM_WORLD,0);
-        err = MPI_T_cvar_get_num(&numPvar);
-        if (err) MPI_Abort(MPI_COMM_WORLD,0);
-        printf("%d MPI Performance Variables\n",numPvar);
+//        err = MPI_T_init_thread(MPI_THREAD_SINGLE,&provided);
+//        if (err) MPI_Abort(MPI_COMM_WORLD,0);
+//        err = MPI_T_cvar_get_num(&numPvar);
+//        if (err) MPI_Abort(MPI_COMM_WORLD,0);
+//        printf("%d MPI Performance Variables\n",numPvar);
 
 
    if (sp*sp != p)
@@ -342,3 +342,4 @@ int main(int argc,  char *argv[])
 
    return 0;
 }
+
