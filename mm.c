@@ -4,7 +4,6 @@
 #include <time.h>
 #include <stdio.h>
 #include <math.h>
-
 #define ALT_MPI_SENDRECV 0
 
 int Alt_MPI_Sendrecv(void *sendbuf, int sendcount, MPI_Datatype sendtype, int dest, int sendtag,

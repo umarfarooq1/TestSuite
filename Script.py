@@ -6,6 +6,7 @@ from os.path import isfile, join
 f = open('combinations.txt','r')
 data = f.read().split('\n')
 f.close()
+filename = "testing"
 mystr= '''#!/bin/bash
 #
 #SBATCH --job-name=MatrixMultiplication
@@ -17,7 +18,7 @@ mystr= '''#!/bin/bash
 #SBATCH --time=04:00:00
 
 mpiexec -l -n %s hostname
-mpiexec -n %s ./mm %s'''
+mpiexec -n %s ./%s %s'''
 
 for i in data:
 	try:
@@ -26,7 +27,7 @@ for i in data:
 		nodes = int(ceil(float(n)/float(24)))
 		if (nodes > 20):
 			nodes = 20
-		fileData = mystr % (matrix_size,n,nodes,n,n,matrix_size)
+		fileData = mystr % (matrix_size,n,nodes,n,n,filename,matrix_size)
 #	print fileData
 		filename = "batchfile%s.sh" %(str(matrix_size))
 		x = open(filename,'w')
